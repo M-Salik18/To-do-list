@@ -1,3 +1,6 @@
+body{
+  background-color: hsl(0, 0%, 10%);
+}
 .to-do-list{
   font-family: Arial, sans-serif;
   text-align: center;
@@ -5,6 +8,7 @@
 }
 h1{
   font-size: 4rem;
+  color: white;
 }
 button{
   padding: 10px 20px;
@@ -38,4 +42,40 @@ button{
 
 .move-button{
   background-color: hsl(251, 51%, 32%);
+}
+
+input[type="text"]{
+  padding: 10px;
+  font-size: 1.7rem;
+  width: 300px;
+  margin-right: 10px;
+  border: 2px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  padding: 15px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 97%);
+  border: 3px solid hsl(0, 0%, 80%,0.75);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button, .move-button{
+  margin-left: 10px;
+  font-size: 1.4rem;
+  padding: 8px 12px;
 }
