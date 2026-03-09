@@ -1,9 +1,10 @@
-import toDoList from "./ToDoList";  
+
+import ToDoList from "./ToDoList";
 
 function App() {
   return (
-    <toDoList />
+    <ToDoList />
   )
 }
 
-export default App
+export default App    
